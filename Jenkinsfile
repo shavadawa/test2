@@ -16,7 +16,7 @@ stages{
   stage('Run application'){
   steps{
   sh 'java -jar target/test1.jar'
-  }}
+  }}}
 
 post {
 always{
