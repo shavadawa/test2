@@ -19,7 +19,7 @@ stages{
 
   stage('Run application'){
   steps{
-  sh 'java -jar target/test1.jar'
+  sh 'java -jar target/test1-1.0-SNAPSHOT.jar'
   }}}
 
 
