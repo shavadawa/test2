@@ -18,6 +18,7 @@ stages{
   sh 'java -jar target/test1.jar'
   }}}
 
+
 post {
 always{
   archiveArtifacts artifacts: 'target/*.jar', fingerprint: true
